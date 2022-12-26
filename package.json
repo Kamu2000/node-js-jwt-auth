@@ -11,13 +11,14 @@
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
-  "name": "auth",
+  "name": "jwt_auth",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
   },
-  "author": "",
+  "author": "Kamlesh",
   "license": "ISC",
   "description": ""
+  "github":"https://github.com/Kamu2000"
 }
