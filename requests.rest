@@ -1,0 +1,39 @@
+POST http://localhost:3000/api/user/register 
+Content-Type: application/json 
+
+{
+    "name": "",
+    "email": "",
+    "password": ""
+}
+
+###
+
+POST http://localhost:3000/api/user/login
+Content-Type: application/json 
+
+{
+    "email": "",
+    "password": ""
+}
+
+###
+
+GET http://localhost:3000/api/posts
+Content-Type: application/json 
+access-token:
+
+###
+POST http://localhost:3000/api/user/token
+Content-Type: application/json 
+refresh-token:
+
+{
+    "email": "",
+}
+
+###
+
+POST http://localhost:3000/api/user/logout
+Content-Type: application/json 
+refresh-token:
