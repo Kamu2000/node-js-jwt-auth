@@ -1,3 +1,6 @@
+Node.js API Authentication using JWT(JSON Web Token) with MongoDB and Express
+
+
 Required Environment Variables:
 
 DB_URI=
